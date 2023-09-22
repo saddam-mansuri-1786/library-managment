@@ -1,0 +1,102 @@
+@charset "UTF-8";
+table, th,td{
+	border-collapse: collapse;
+	border: 5px solid orange;
+}
+td,th{
+	
+	padding: 10px;
+	
+}
+
+	.table1{
+	position: relative;
+	left:20%;
+	margin-top: 5%;
+ 
+	
+	}
+	
+tr:hover {
+	background-color: rgb(128, 128, 255);
+	}
+	
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+	}	
+	
+	.login{
+	       
+    position: relative;
+    left: 30%;
+    padding-left: 5%;
+    margin-right: 75%;
+    top: 100px;
+    padding-top: 45px;
+   
+	
+	}
+	.form{
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 15px;
+    padding-right: 120PX;
+    padding-left: 120px;
+	}
+	.submite_button{
+	  
+    left: 106px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 60px;
+    cursor: pointer;
+    background-color: #009f00;
+    color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding: 20px, 10px,20px,10px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+	}
+	submite_button :hover {
+  background-color: yellow;
+}
+h1{
+	color : black;
+	}
+h2{
+	color : #6a4acb;
+}
+input[type=submit]:hover
+{
+background-color: #45a049;	
+}
+input[type=submit], input[type=reset] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+inpt,input[type="text" i],input[type="password" i] {
+    padding: 15px 100px;
+    border-radius: 4px;
+}
+p{
+	font-size: 18px;
+}
+h4{
+	color: #931313;
+}
+
+body{
+	
+	background-image:url(../images/bg-image1.jpg) ;
+	
+	margin-right: 50px;
+   text-align: center;
+	}
